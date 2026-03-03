@@ -8,15 +8,7 @@ A production-grade React application implementing a B2B SaaS security platform i
 
 > **Candidate:** [Rishika Kherniwal]  
 > **Live Demo:** [fenrir-ui.vercel.app]  
-> **Loom Walkthrough:** []  
 
----
-
-## 📸 Preview
-
-![Fenrir Security Dashboard Preview](./screenshot.png) 
-
----
 
 ## 🎯 Project Overview
 
