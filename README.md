@@ -1,71 +1,66 @@
-# Getting Started with Create React App
+# 🛡️ Fenrir Security - Frontend Design Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-## Available Scripts
+A production-grade React application implementing a B2B SaaS security platform interface, built from scratch for the Fenrir Security Frontend Engineering assessment.
 
-In the project directory, you can run:
+> **Candidate:** [Rishika Kherniwal]  
+> **Live Demo:** [fenrir-ui.vercel.app]  
+> **Loom Walkthrough:** []  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📸 Preview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Fenrir Security Dashboard Preview](./screenshot.png) 
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 Project Overview
 
-### `npm run build`
+This project is a pixel-perfect, fully responsive translation of the provided design references into a functional React application. Following the strict requirements of the assessment, it was built **without** the use of pre-built UI component libraries (like Material UI or Chakra).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Implemented Screens
+1. **Authentication (Sign-up):** Split-layout with dark gradient branding, form validation, and social login buttons.
+2. **Main Dashboard:** Responsive sidebar navigation and a data-rich scan list overview with progress indicators.
+3. **Active Scan Detail:** Dynamic view showcasing a simulated live terminal/console alongside a categorized vulnerability log.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ✨ Key Features & Highlights
 
-### `npm run eject`
+- **🌗 Full Theme Support:** 100% support for both Light and Dark modes across all screens, seamlessly integrated using Tailwind CSS.
+- **📱 Mobile Responsive:** Fluid layouts that adapt gracefully to all screen sizes. The sidebar transforms into a collapsible mobile drawer, and complex split-panels stack vertically.
+- **🎨 Custom UI Architecture:** Custom-built data tables, status badges, progress bars, and form inputs designed to match the provided high-fidelity mockups.
+- **🖱️ Interactive States:** Comprehensive hover, focus, and active states implemented for all interactive elements to ensure the UI feels alive.
+- **✅ Robust Form Handling:** Client-side validation for the authentication forms with localized error states.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Technology Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* **Core:** React 19 (via Create React App)
+* **Styling:** Tailwind CSS (Utility-first CSS framework)
+* **Icons:** `lucide-react` & Custom SVGs built to match the design reference exactly.
+* **Routing:** Custom state-based navigation (to keep the application lightweight and focused strictly on UI/UX implementation).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Running Locally
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run this project locally, ensure you have Node.js (v16+) installed.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# 1. Clone the repository
+git clone [https://github.com/](https://github.com/)[YourUsername]/[YourRepoName].git
 
-### Code Splitting
+# 2. Navigate into the directory
+cd [YourRepoName]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 3. Install dependencies
+npm install
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Fenrir_UI
+# 4. Start the development server
+npm start
