@@ -46,10 +46,10 @@ To run this project locally, ensure you have Node.js (v16+) installed.
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/](https://github.com/)[YourUsername]/[YourRepoName].git
+git clone https://github.com/Rishika3D/Fenrir_UI.git
 
 # 2. Navigate into the directory
-cd [YourRepoName]
+cd Fenrir_UI
 
 # 3. Install dependencies
 npm install
